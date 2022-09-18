@@ -1,0 +1,12 @@
+.footer{
+  background-color: #030303;
+  text-align: center;
+  color: #adadad;
+  padding: 20px;
+}
+
+@media (max-width:768px){
+  .footer{
+    width: 100%;
+  }
+}

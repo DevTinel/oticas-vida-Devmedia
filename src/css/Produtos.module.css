@@ -1,0 +1,71 @@
+.produtosContainer{
+    width: 100%;
+    text-align: center;
+    padding: 100px 20px;
+   
+}
+.produtosContainer p {
+  margin: 30px auto;
+}
+.produtos{
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+
+} 
+.listaVantagens ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.listaVantagens  li{
+  list-style: inside;
+  margin: 5px;
+}
+@media(max-width:768px){
+  .produtosContainer{
+    width: 100%;
+    text-align: center;
+   
+}
+  .produtos{
+    margin: 0 auto;
+    width: 100%;
+  
+  }
+  .produtos h2{
+    font-size: 25px; 
+    margin-top: -40px; 
+  }
+  .produtos p{
+    font-size: 20px;  
+    width: 30ch;
+  }
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  } 
+  .listaVantagens  li{
+    list-style: inside;
+    margin: 5px;
+    font-size: 14px;
+  }
+
+  .bloco{
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+ 
+}

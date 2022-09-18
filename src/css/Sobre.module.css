@@ -1,0 +1,87 @@
+.sobreContainers{
+  background-color: #f8f7ff;
+  padding: 100px 20px;
+  text-align: center;
+}
+.sobreItens{
+  width: 80%;
+  margin: 0 auto;
+}
+.sobreNos p{
+  line-height: 32px;
+}
+.containerSobreNos{
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #a2adad;
+}
+.bloco{
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+
+}
+.bloco img{
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+.blocoItem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  gap: 60px;
+ 
+}
+.blocoItem h4{
+  font-size: 36px;
+  font-family: 'Anybody',cursive;
+  letter-spacing: 5px;
+  line-height: 42px;
+  font-weight: 500;
+}
+.blocoItem p{
+  font-size: 22px;
+  color: #4a4a4a;
+}
+@media(max-width:980px){
+  .blocoItem h4{
+    font-size: 30px;
+    font-family: 'Anybody',cursive;
+    letter-spacing: 5px;
+    line-height: 42px;
+    font-weight: 400;
+  }
+ 
+
+}
+@media(max-width:768px){
+  .sobreItens{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .bloco{
+    flex-direction: column;
+  }
+  .bloco img{
+    width: 100%;
+  }
+  .blocoItem h4{
+    font-size: 30px;
+    font-family: 'Anybody',cursive;
+    letter-spacing: 5px;
+    line-height: 42px;
+    font-weight: 500;
+  }
+  .sobreContainers{
+    background-color: #f8f7ff;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}

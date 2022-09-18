@@ -1,0 +1,64 @@
+.home{
+  background:linear-gradient(47deg,#000113 0%,#04061D 80%,#04061D 100%);
+  background: url('../imagens/capa.png') center no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  height: 100vh;
+  margin-top: 3%;
+}
+
+
+.contentItens{
+  height: 100%;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+}
+.home p,.home h1{
+  font-family: 'AnyBody',cursive;
+  width: 500px;
+}
+.home p{
+  font-size: 36px;
+  color: rgb(196,196,196);
+}
+.home h1{
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 60px;
+  margin: 0;
+  letter-spacing: 4px;
+  line-height: 70px;
+}
+
+@media(max-width:768px){
+  .home{
+    background:linear-gradient(47deg,#000113 0%,#04061D 80%,#04061D 100%);
+    background: url('../imagens/capa.png') center no-repeat;
+    object-fit: cover;
+    background-size: cover;
+  } 
+  .home p{
+    font-size: 20px ;
+    max-width: 350px;
+    margin-left: 10%;
+
+  }
+  .home h1{
+    font-size: 40px;
+    max-width: 350px;
+    text-align: left;
+    line-height: 50px;
+    margin-left: 10%;
+  }
+  .contentItens{
+    width: 100%;
+  }
+}
+
+
+
